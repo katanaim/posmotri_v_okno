@@ -70,6 +70,7 @@ fieldset {
   margin-block-end: 16px;
   block-size: 386px;
   inline-size: 711px;
+  position: relative;
 }
 
 .result__video-container video {
@@ -164,6 +165,7 @@ fieldset {
 .content__list {
   overflow: auto;
   max-block-size: 298px;
+  position: relative;
 }
 
 .content__list-item:not(:last-of-type) {
