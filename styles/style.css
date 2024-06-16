@@ -16,6 +16,7 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
+  display: flex;
 }
 
 h1,
@@ -54,8 +55,7 @@ fieldset {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  justify-items: stretch;
-  /* max-block-size: 534px; */
+  align-self: center;
   align-items: end;
   gap: 30px;
   padding: 133px 30px;
