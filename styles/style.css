@@ -206,6 +206,7 @@ fieldset {
 
 .content__card-link:active{
   background: #545050;
+  text-decoration: none;
 }
 
 
