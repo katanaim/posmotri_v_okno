@@ -87,9 +87,9 @@ fieldset {
 }
 
 .search-form__textfield {
-  border-width: 1px 0;
+  border-width: 1px 1px;
   border-style: solid;
-  border-color: #fff;
+  border-color: #fff transparent;
   padding: 0;
   color: rgb(255 255 255 / 0.7);
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -173,7 +173,7 @@ fieldset {
 .content__list {
   overflow-y: auto;
   overflow-x: hidden;
-  max-block-size: 298px;
+  block-size: 298px;
   position: relative;
 }
 
